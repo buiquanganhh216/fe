@@ -1,36 +1,18 @@
-@media (max-width: 430px) {
-  .extra-links {
-    display: flex;
-    justify-content: space-between;
-    white-space: nowrap;
-    font-size: 15px;
-  }
-  .btn-login {
-    display: flex;
-    justify-content: space-between;
-    white-space: nowrap;
-    font-size: 15px;
-  }
-  .register {
-    border-radius: 20px;
-    white-space: nowrap;
-    font-size: 15px;
-  }
+* {
+  justify-content: center;
 }
 
 .register {
-  padding-left: 94px;
-  padding-right: 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 151px;
-  margin-right: 104px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   border-radius: 10px;
   background-color: green;
   color: white;
   font-weight: bold;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 100%;
 }
 
 .register:hover {
@@ -41,6 +23,8 @@
 }
 
 .forgot_password {
-  margin-left: 247px;
+  background-color: none;
+
+  text-align: center;
   text-decoration: underline;
 }

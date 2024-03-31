@@ -85,9 +85,11 @@ const Login = () => {
         <Button type="submit" variant="contained" className="btn-login">
           Đăng nhập
         </Button>
-        <Link className="forgot_password" to="/forgot_password">
-          Quên mật khẩu?
-        </Link>
+        <Box display="flex" flexDirection="row" gap={20}>
+          <Link className="forgot_password" to="/forgot_password">
+            Quên mật khẩu?
+          </Link>
+        </Box>
       </Box>
       <hr />
       <Box display="flex" flexDirection="row" gap={20}>

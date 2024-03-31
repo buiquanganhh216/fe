@@ -1,3 +1,6 @@
+* {
+  font-size: 100%;
+}
 .smooth {
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -76,8 +79,11 @@
 }
 
 .btn-addBlog {
-  margin-left: 294px;
-  margin-bottom: -145px;
+  margin-left: 17%;
+  margin-bottom: 0%;
+  .text-btn-addBlog {
+    font-size: -1%;
+  }
 }
 .btn-return {
   margin: 30px;

@@ -45,3 +45,32 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 1283px) {
+  .support:hover .hotline-text {
+    display: block;
+  }
+  .social-media {
+    width: 100%;
+  }
+}
+@media (max-width: 957px) {
+  .support:hover .hotline-text {
+    display: block;
+  }
+  .social-media {
+    width: 100%;
+  }
+}
+@media (max-width: 630px) {
+  .support:hover .hotline-text {
+    display: block;
+  }
+  .social-media {
+    .icon-socialMedia {
+      margin-top: 10px;
+      margin-left: -5px;
+      width: 100%;
+    }
+  }
+}

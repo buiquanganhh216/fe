@@ -208,7 +208,8 @@ const Blog: React.FC = () => {
             variant="contained"
             onClick={() => handleClickOpen()}
           >
-            <i className="fa-solid fa-plus pr-1"></i> Thêm bài viết
+            <i className="fa-solid fa-plus pr-1 text-btn-addBlog"></i> Thêm bài
+            viết
           </Button>
         ) : (
           <></>

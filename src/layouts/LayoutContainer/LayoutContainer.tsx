@@ -37,7 +37,7 @@ const LayoutContainer: React.FC<LayoutContainerProps> = ({
           style={{ backgroundColor: "#ECEFF1" }}
         >
           <section
-            className="d-flex justify-content-between p-4 text-white"
+            className="d-flex justify-content-between p-4 text-white social-media"
             style={{ backgroundColor: "#2d73dd" }}
           >
             <div className="me-5">
@@ -47,6 +47,7 @@ const LayoutContainer: React.FC<LayoutContainerProps> = ({
               style={{
                 display: "inline",
               }}
+              className="icon-socialMedia"
             >
               <a
                 href=""
