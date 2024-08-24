@@ -1,11 +1,11 @@
 .slide-item {
-  height: 600px;
+  height: 750px;
   margin: 0 20px;
 
   &-banner {
     z-index: -1;
     transition: all 600ms;
-    opacity: 0.6;
+    opacity: 1;
 
     &:hover {
       opacity: 0.9;

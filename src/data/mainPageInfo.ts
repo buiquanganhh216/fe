@@ -1,17 +1,19 @@
+import image1 from "../assets/images/banner-1-trung-tam-anh-ngu-toa-sang.png";
+import image2 from "../assets/images/banner-2-trung-tam-anh-ngu-toa-sang.png";
+import image3 from "../assets/images/banner-3-trung-tam-anh-ngu-toa-sang.png";
+import image4 from "../assets/images/banner-4-trung-tam-anh-ngu-toa-sang.png";
 export const listSlideShow = [
   {
-    image:
-      "https://th.bing.com/th/id/R.7eb4780861d305fdffcfb47437e6f9aa?rik=9L8cp7QxBQ4abg&pid=ImgRaw&r=0",
+    image: image1,
   },
   {
-    image: "",
+    image: image2,
   },
   {
-    image: "",
+    image: image3,
   },
-
   {
-    image: "",
+    image: image4,
   },
 ];
 
